@@ -1,0 +1,409 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(#0a6572, #14bfd8);
+    font-family: 'Nunito';
+    color: #F5F5F5;
+}
+
+body::after {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    /* ajuste conforme o tamanho da imagem */
+    background-image: url('imgs/fundo.png');
+}
+
+.fundo img {
+    width: 1530px;
+    margin-top: -400px;
+    z-index: -1;
+    opacity: 0.99;
+}
+
+.salve {
+    margin-top: 50px;
+    margin-left: 35px;
+}
+
+.salve h1 {
+    font-size: 58px;
+    margin-left: 40px;
+}
+
+.salve h6 {
+    font-size: 24px;
+    width: 300px;
+    margin-top: -30px;
+    margin-left: 50px;
+}
+
+.baleia img {
+    margin-top: -260px;
+    margin-left: 800px;
+    width: 350px;
+    height: auto;
+}
+
+.s-ondas img {
+    width: 60px;
+    height: auto;
+    margin-left: 1200px;
+    position: relative;
+    margin-top: -200px;
+}
+
+.impacto {
+    margin-left: 70px;
+}
+
+.impacto h1 {
+    font-size: 48px;
+    width: 500px;
+}
+
+.impacto p {
+    font-size: 22px;
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+.barco img {
+    margin-left: 600px;
+}
+
+.barco {
+    margin-top: -200px;
+}
+
+.i-ondas img {
+    width: 50px;
+    height: auto;
+    margin-left: 680px;
+}
+
+.i-ondas {
+    margin-top: -25px;
+}
+
+.cubo {
+    width: 500px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    position: relative;
+    margin-left: 800px;
+    margin-top: -250px;
+}
+
+.imagem img {
+    width: 200px;
+    height: auto;
+}
+
+.barra-central {
+    width: 5px;
+    height: 200px;
+    background-color: #0A6572;
+}
+
+.life h1 {
+    font-size: 48px;
+    margin-top: 100px;
+    margin-left: 980px;
+    width: 400px;
+    text-align: right;
+}
+
+.life p {
+    font-size: 22px;
+    width: 600px;
+    margin-top: -20px;
+    margin-left: 800px;
+    text-align: left;
+}
+
+.estrela img {
+    width: 135px;
+    height: auto;
+    margin-left: 60px;
+}
+
+.estrela {
+    margin-top: -350px;
+}
+
+.peixe img {
+    width: 220px;
+    height: auto;
+    margin-left: 90px;
+}
+
+.despertar h1 {
+    font-size: 48px;
+    margin-top: 100px;
+    margin-left: 60px;
+    width: 600px;
+    margin-top: 200px;
+    z-index: 2;
+}
+
+.despertar p {
+    font-size: 22px;
+    width: 610px;
+    margin-top: -20px;
+    margin-left: 60px;
+}
+
+.mergulhador img {
+    width: 230px;
+    height: auto;
+}
+
+.mergulhador {
+    margin-left: 900px;
+    margin-top: -220px;
+}
+
+.cavalo-marinho img {
+    width: 180px;
+    height: auto;
+    margin-top: 20px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 900px;
+    margin-top: -40px;
+}
+
+.algas img {
+    margin-top: 0px;
+    width: 160px;
+    height: auto;
+}
+
+.algas-2 img {
+    margin-top: 5px;
+    width: 160px;
+    height: auto;
+}
+
+button {
+    background-color: #fff;
+    color: #0a6572;
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+    margin-left: 40%;
+    cursor: pointer;
+}
+
+
+body::after {
+    content: "";
+    position: absolute;
+    background-image: url('imgs/fundo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    z-index: -1;
+    opacity: 1;
+    width: 1550px;
+    height: 800px;
+    bottom: 0;
+    left: 0;
+    top: 1000px;
+}
+
+@media (max-width: 480px) {
+    html,
+    body {
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+    .salve h1 {
+        font-size: 32px;
+        margin-bottom: 30px;
+        margin-left: -10px;
+    }
+
+    .salve h6 {
+        font-size: 16px;
+        margin-left: -10px;
+        width: 190px;
+    }
+
+    .baleia img {
+        width:150px;
+        margin: 2;
+        display: block;
+        margin-top: -120px;
+        margin-left: 220px;
+    }
+
+    .s-ondas img {
+        width: 20px;
+        margin-left: 360px;
+        margin-top: -40px;
+        display: block;
+    }
+
+    .impacto {
+        margin-left: 60px;
+        margin-right: 0px;
+        margin-top: 60px;
+    }
+
+    .impacto h1 {
+        font-size: 22px;
+        width: 100;
+        margin-left: -100px;
+        text-align: center;
+    }
+
+    .impacto p {
+        font-size: 16px;
+        width: 360px;
+        margin-left: -20px;
+        margin-bottom: -10px;
+        margin-top: -10px;
+    }
+
+    .cubo {
+        margin-left: 20px;
+        margin-top: 160px;
+        width: 250px;
+        padding: 2px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .barra-central {
+        width: 500px;
+        height: 100px;
+        border: 3px solid #0A6572;
+    }
+
+    .imagem img {
+    width: 100px;
+    height: auto;
+    }
+
+    .barco img {
+        display: none;
+    }
+
+    .life {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .life h1 {
+        font-size: 22px;
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+
+    .life p {
+        font-size: 16px;
+        width: 380px;
+        margin-left: 30px;
+        margin-bottom: 200px;
+    }
+
+    .estrela img {
+        width: 40px;
+        margin-left: -20px;
+        margin-top: -20px;
+    }
+
+    .peixe img {
+        width: 60px;
+        margin-left: -20px;
+    
+    }
+
+    .despertar {
+        margin-left: -20px;
+        margin-top: -40px;
+    }
+
+    .despertar h1 {
+        font-size: 22px;
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .despertar p {
+        font-size: 16px;
+        width: 360px;
+        text-align: left;
+        margin-left: 70px;
+    }
+
+    .mergulhador img {
+        width:80px;
+        margin-left: -20px;
+        margin-top: 20px;
+    }
+
+    .cavalo-marinho img {
+        width: 80px;
+        margin-left: 5px;
+    }
+
+    .algas img {
+        width: 80px;
+        margin-top: 10px;
+        display: block;
+    }
+
+    .algas-2 img {
+        width: 80px;
+        margin-top: 10px;
+        display: block;
+    }
+
+
+    button {
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        font-size: 12px;
+        margin-top: 100px;
+    }
+
+    footer {
+        margin-bottom: 0px;
+        margin-top: 35px;
+        gap: 180px;
+    }
+
+    body::after {
+        margin-left: -10px;
+        width: 110%;
+        height: 250px;
+        background-size: contain;
+    }
+}
